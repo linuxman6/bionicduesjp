@@ -956,7 +956,7 @@ Most weather types don't even include this layer, but if you're having particula
 <ln id="GameEntityType_Name_NinjaBot">NinjaBot</ln>
 <ln id="GameEntityType_Desc_NinjaBot">shotgun持ったニンジャ？ おぉ良いね。 さらに彼があなたへ近づくほど視界が狭まっていく光学吸収装置も装備しています。</ln>
 <ln id="GameEntityType_Name_TreadBot">TreadBot</ln>
-<ln id="GameEntityType_Desc_TreadBot">シーッ！ 彼は寝てるんです、起こしたくないでしょう。 そんな事をすれば、彼の友達もみんな来てしいまいます...</ln>
+<ln id="GameEntityType_Desc_TreadBot">シーッ！ 彼は寝てるんです、起こしたくないでしょう。 そんな事をすれば、彼の友達もみんな来てしまいます...</ln>
 <ln id="GameEntityType_Name_PantherBot">PantherBot</ln>
 <ln id="GameEntityType_Desc_PantherBot">ド近眼な戦車ですが、追い付かれれば非常に危険なrocketを飛ばしてきます。 加えて、常に自分の背後にmineを落としながら移動します。</ln>
 <ln id="GameEntityType_Name_TigerBot">TigerBot</ln>

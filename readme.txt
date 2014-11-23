@@ -1,4 +1,4 @@
-Bionic Dues 日本語化 141120
+Bionic Dues 日本語化 141123
 
 対応ゲームVer.1.101
 
