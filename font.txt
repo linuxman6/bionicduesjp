@@ -1,0 +1,89 @@
+フォントの作成方法	
+	
+必要ツール	Bitmap Font Generator （http://www.angelcode.com/products/bmfont/）
+	v1.13, 1.14betaどちらでも可
+	
+1	日本語表示させたい所に使われているフォントを Bionic_Dues\RuntimeData\Images\GUI\BitmapFonts\ から探す
+2	.fntファイルをテキストエディタで開き、1行目にある"size="の値をメモ
+3	Bitmap Font GeneratorのFont Settingsにその値を適用し、フォントを書き出す
+4	書き出された.pngのファイル名のについている"_0"を削除
+5	書き出された.fntファイルを開き、5行目（id=-1の行）を削除して保存
+	
+	
+Bitmap Font Generatorの設定	
+Export Options	Txture　2048x2048程度。
+	Bit depth　32
+	Presets　フォント次第
+	Font description　Text
+	Textures　png
+	
+Fonts Settings	Font　任意
+	Charset　Unicode
+	Size(px)　任意
+	Match char height　チェックを入れる
+	Rasterization以下　すべてチェック
+	super sampling level　2
+	Outline thickness　2
+	
+日本語文字のみの書き出す設定	メニュー - Edit - Select chars fom file から下のサイトで配布されているshift jisに含まれるフォントを指定するファイルを読み込ませる（ページの中央付近の「こちら」のリンク
+	強火で進め　[NGUI] BMFont(Bitmap Font Generator) で NGUI 向けのビットマップフォントを作る方法　http://d.hatena.ne.jp/nakamura001/20120910/1347241168
+	"
+"
+	
+	
+利用文字のみのフォントが像を造る	
+・BOM付きUTF-8の言語ファイルを読み込む	
+・000000 Latin + Latin Supplement の上半分を全選択	
+	
+	
+各フォントの設定	
+MirForParagraphs	
+黒アウトライン	
+A:outline	
+R:glyph	
+G:glyph	
+B:glyph	
+1024x1024	
+size=20	
+	
+SpaceExplorerBlackOutline	
+黒アウトライン	
+A:outline	
+R:glyph	
+G:glyph	
+B:glyph	
+800x800	
+size=16	
+	
+SpaceExplorerColoredBlackOutline	
+黒アウトライン赤文字	
+A:outline	
+R:glyph	
+G:glyph	
+B:glyph	
+800x800	
+size=16	
+	
+SpaceExplorerGiant	
+ストアと勝利＆敗北メッセージのトップにある大型文字	
+A:outline	
+R:glyph	
+G:glyph	
+B:glyph	
+1024x1024	
+size=32	
+	
+SpaceExplorerLight	
+白文字（アウトライン無し）	
+A:Glyph	
+R:one	
+G:one	
+B:one	
+800x800	
+size=16	
+	
+	
+	
+言語ファイルの作成方法	
+	1.翻訳されたセルの2-最後のセルをコピーし、テキストエディタに貼り付ける
+	2.UTF-8 BOM無しで保存
