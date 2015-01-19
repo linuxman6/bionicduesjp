@@ -1,8 +1,8 @@
 bionicduesjp
 ============
-Bionic Dues 日本語化 141123
+Bionic Dues 日本語化 150118
 
-対応ゲームVer.1.101
+対応ゲームVer.1.103
 
 公式サイト
 http://arcengames.com/bionic-dues/

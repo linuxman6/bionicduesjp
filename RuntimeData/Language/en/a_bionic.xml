@@ -362,9 +362,9 @@ This is off by default to avoid confusing new players, but some players may find
 <ln id="chkSuppressOneLineBootstrappingHints_Tooltip">これをオンにした場合、"シティマップのノードをクリックしてミッション開始" や "WASDで移動" などの初歩的なヒントを表示しなくなります。</ln>
 
 <ln id="chkAllowEdgePanningInMissions">ミッションマップ：画面の端にマウスを置くとパンニング</ln>
-<ln id="chkAllowEdgePanningInMissions_Tooltip">マウスカーソルが画面の端に近づくと、画面がスクロールするようになる。 これにより敵などを確認しやすくなります。 しかし、マルチモニタやウィンドウモードででのプレイでは支障が出るでしょう。</ln>
+<ln id="chkAllowEdgePanningInMissions_Tooltip">マウスカーソルが画面の端に近づくと、画面がスクロールするようになる。 これにより敵などを確認しやすくなります。 しかし、マルチモニタやウィンドウモードでのプレイで支障が出るでしょう。</ln>
 <ln id="chkAllowEdgePanningInCityMap">シティマップ：画面の端にマウスを置くとパンニング</ln>
-<ln id="chkAllowEdgePanningInCityMap_Tooltip">マウスカーソルが画面の端に近づくと、画面がスクロールするようになる。 これにより敵などを確認しやすくなります。 しかし、マルチモニタやウィンドウモードででのプレイでは支障が出るでしょう。</ln>
+<ln id="chkAllowEdgePanningInCityMap_Tooltip">マウスカーソルが画面の端に近づくと、画面がスクロールするようになる。 これにより敵などを確認しやすくなります。 しかし、マルチモニタやウィンドウモードでのプレイで支障が出るでしょう。</ln>
 <ln id="chkMouseZoomInCenterOnCursor">マウスカーソルの場所にズーム</ln>
 <ln id="chkMouseZoomInCenterOnCursor_Tooltip">有効化すると、マウススクロールでズームイン時にマウスカーソルに向かって画面が移動します。 信じられないぐらい便利な機能で、最近のソフトウェア（ゲーム以外でも）はこれを使うようになっています。 しかしながら、一部の人は有用にもかかわらず、この機能を快適に感じない人がいます。 画面の中央に向かってズームする、古典的なもの好む場合にこのオプションがあります。</ln>
 <ln id="chkKeyboardZoomInCenterOnCursor">キーボードでズーム時、カーソルに向かう</ln>
