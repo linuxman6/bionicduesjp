@@ -10,7 +10,7 @@ http://store.steampowered.com/app/238910/
 
 
 ■概要
-Arcen Games製のSFローグライクターンベースストラテジーゲーム「Bionic Dues」を日本語化するファイルファイル群です。
+Arcen Games製のSFローグライクターンベースストラテジーゲーム「Bionic Dues」を日本語化するファイル群です。
 この日本語化は有志によって行われた非公式な物で有り、無保証です。自己責任で利用して下さい。
 
 
